@@ -1,0 +1,34 @@
+// Navigation Styles here
+header{
+    margin-top: @padding;
+    padding-bottom: @padding;
+    border-bottom: @border;
+    
+    h1{
+        margin-left: @margin;
+        @media @mobile{
+        // margin: 0 auto;
+        text-align: center;
+        }
+    }
+    nav{
+        .flexRight(space-between);
+        margin-left: @margin + 45%;
+        margin-top: -3%;
+        width: 30%;
+        @media @mobile{
+            display: block;
+            width: 100%;
+            margin-top: 0;
+            margin-left: 2%;
+        }
+       a{
+           text-decoration: none;
+        @media @mobile{
+            margin-right: @margin;
+        }
+           
+       }
+    }
+    
+}
