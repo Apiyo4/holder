@@ -1,0 +1,14 @@
+// Mixins in here
+.flexRight(@space-between){
+    display: flex;
+    justify-content: @space-between;
+}
+.paddingBottom(){
+ padding-bottom: @margin - 8%;
+}
+.button(@width; @pad; @colour;@radius){
+    width: @width;
+        padding: @pad;
+        background-color: @colour;
+        border-radius: @radius;
+}
